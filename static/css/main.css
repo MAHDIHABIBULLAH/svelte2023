@@ -67,3 +67,9 @@ nav a {
 nav a:hover {
     border-bottom: 2px solid #fff;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
