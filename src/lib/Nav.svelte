@@ -1,4 +1,5 @@
 <nav>
+    <img src="img/onepiece.png" width="200" alt="Icon place holder ">
     <ul>
         <li><a href="routes/+page.svelte">Home</a></li>
         <li><a href="routes/about/+page.svelte">About</a></li>
