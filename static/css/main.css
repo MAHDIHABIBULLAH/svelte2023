@@ -43,3 +43,11 @@ footer {
     padding: 30px;
 }
 
+/* styling the main page paragraph and video*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
