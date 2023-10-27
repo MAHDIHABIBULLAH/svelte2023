@@ -60,4 +60,17 @@ body {
 .video {
     padding: 20px;
 }
+.video video {
+    width: 100%;
+}
 
+.details {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header{
+    padding: 30px;
+    flex-direction: right;
+
+}
