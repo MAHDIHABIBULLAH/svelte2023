@@ -57,6 +57,9 @@ footer {
     text-decoration: none;
     color: #fff;
   }
+  .footer-links img {
+    width: 30px;
+  }
 
 /* styling the main page paragraph and video*/
 
