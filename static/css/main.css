@@ -46,6 +46,11 @@ footer {
 #logo{
     padding: 30px;
 }
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
 /* styling the main page paragraph and video*/
 
