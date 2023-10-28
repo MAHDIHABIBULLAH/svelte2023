@@ -51,6 +51,12 @@ footer {
     justify-content: flex-end;
     align-items: center;
   }
+  
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+  }
 
 /* styling the main page paragraph and video*/
 
