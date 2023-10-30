@@ -1,5 +1,7 @@
 <script>
-</script>
+  import { onMount } from 'svelte';
+
+
 <svelte:head>
     <link rel="stylesheet" href="css/main.css"/>
 </svelte:head>
