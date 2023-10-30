@@ -1,5 +1,17 @@
 <script>
   import { onMount } from 'svelte';
+  
+let cardData = [];
+
+async function fetchCardData() {
+  try {
+    const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php');
+    const result = await response.json();
+    cardData = result.data;
+  } catch (error) {
+    console.error('Error fetching card data:', error);
+  }
+}
 
 
 <svelte:head>
