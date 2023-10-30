@@ -1,4 +1,4 @@
-nav {
+.nav {
     margin:0;
     background-color: #333;
     color: #fff;
@@ -8,7 +8,7 @@ nav {
     text-align: left; 
   }
 
-nav ul {
+.nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
