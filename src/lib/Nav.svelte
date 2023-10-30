@@ -1,11 +1,11 @@
 <nav class="nav">
     <img src="img/onepiece.png" width="200" alt="Icon place holder">
-    <div class="navtext">
-        <h1>"I am gonna become the pirates King"</h1>
+    <div class="yugi-logo">
+    <img src="img/yugi.png" width="200" alt="Icon place holder">
     </div>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/Devilfruit">Devil Fruit</a></li>
+        <li><a href="/">One Piece</a></li>
+        <li><a href="/yu-gi-oh">Yu-gi-oh</a></li>
         <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>

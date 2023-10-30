@@ -3,11 +3,9 @@
     background-color: #333;
     color: #fff;
 }
-.navtext {
-    font-weight: bold;
-    text-align: left; 
-  }
-
+.yugi-logo{
+    align-items: flex-end;
+}
 .nav ul {
     list-style-type: none;
     padding: 0;
