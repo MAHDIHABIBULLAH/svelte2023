@@ -2,9 +2,13 @@
     margin:0;
     background-color: #333;
     color: #fff;
+    position: relative;
+    width:100%;
 }
-.yugi-logo{
-    align-items: flex-end;
+.yugi-logo {
+    position: absolute;
+    top: 0; 
+    right: 0; 
 }
 .nav ul {
     list-style-type: none;
