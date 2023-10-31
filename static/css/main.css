@@ -26,12 +26,18 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    background-color: #333; /* Default background color */
+    color: #416463; /* Default text color */
+    padding: 10px 20px; /* Add some padding for the links */
+    transition: background-color 0.3s; /* Add a smooth background color transition effect */
 }
 
 nav a:hover {
-    border-bottom: 2px solid #fff;
+    background-color: #d8d8d8; /* Change the background color to a different color (#e74c3c) on hover */
 }
+
+
+
 
 /* Style for footer*/
 footer {
