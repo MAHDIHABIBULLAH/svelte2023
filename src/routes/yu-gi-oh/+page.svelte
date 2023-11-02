@@ -38,9 +38,6 @@
     </div>
 </div>
 
-
-
-
 {#if showCards}
   <ul class="card-grid">
     {#each cardData as card (card.id)}
