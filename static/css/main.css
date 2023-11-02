@@ -111,3 +111,8 @@ body {
   text-align: center;
   transition: transform 0.2s;
 }
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
