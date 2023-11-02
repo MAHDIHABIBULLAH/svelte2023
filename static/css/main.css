@@ -103,4 +103,11 @@ body {
   padding: 0;
 }
 
-
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
