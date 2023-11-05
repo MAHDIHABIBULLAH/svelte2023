@@ -163,3 +163,7 @@ body {
   gap: 10px;
   margin: 20px;
 }
+.image {
+  position: relative;
+  overflow: hidden;
+}
