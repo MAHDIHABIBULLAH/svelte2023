@@ -154,25 +154,3 @@ body {
     margin-top: 10px;
   }
 }
-
-/* Main page wanted posters*/
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  margin: 20px;
-}
-.image {
-  position: relative;
-  overflow: hidden;
-}
-.image img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s;
-}
-
-.image:hover img {
-  transform: translateX(20px);
-}
