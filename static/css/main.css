@@ -167,3 +167,12 @@ body {
   position: relative;
   overflow: hidden;
 }
+.image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.image:hover img {
+  transform: translateX(20px);
+}
