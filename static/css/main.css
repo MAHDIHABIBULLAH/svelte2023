@@ -154,3 +154,25 @@ body {
     margin-top: 10px;
   }
 }
+/* stylinng the contact page*/
+.con {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+button {
+  margin-top: 1rem;
+}
