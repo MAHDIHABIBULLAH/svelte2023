@@ -16,7 +16,7 @@
 
       const response = await fetch(url);
       const result = await response.json();
-      cardData = result.data;
+      cardData = result.data.slice(0, 20);
     } catch (error) {
       console.error('Error fetching card data:', error);
     }
