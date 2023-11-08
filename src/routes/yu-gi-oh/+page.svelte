@@ -8,8 +8,6 @@
   async function fetchCardData(filterType = "all") {
     try {
       let url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php';
-
-      // If the filter is set to "Spell Cards," update the URL to fetch spell cards
       if (filterType === "Spell") {
         url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php?type=spell%20card&race=equip';
       }
@@ -41,7 +39,7 @@
     }
   });
 </script>
-
+/* code for the page contents */
 <div class="video-grid">
   <div class="video">
     <video src="videos/yugi.mp4" type="video/mp4" alt="unable to play the video" controls></video>
@@ -60,12 +58,10 @@
       {/if}
     </button>
 
-    <!-- Filter dropdown for card types -->
     <select bind:value={selectedFilter}>
       <option value="all">All Cards</option>
       <option value="Spell">Spell Cards</option>
       <option value="Monster">Monster Cards</option>
-      <!-- Add more filter options as needed -->
     </select>
   </div>
 </div>

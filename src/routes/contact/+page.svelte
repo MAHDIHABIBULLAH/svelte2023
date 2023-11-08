@@ -1,6 +1,7 @@
 <svelte:head>
   <link rel="stylesheet" href="css/main.css" />
 </svelte:head>
+
 <script>
   let name = '';
   let email = '';
