@@ -12,7 +12,7 @@
       const response = await fetch(url);
       const result = await response.json();
       cardData = result.data;
-      cardData = result.data.slice(0, 24);
+      cardData = result.data;
       console.log(cardData)
     } catch (error) {
       console.error('Error fetching card data:', error);
@@ -55,7 +55,7 @@
       <option value="all">All Cards</option>
       <option value="Spell Card">Spell Cards</option>
       <option value="Normal Monster">Monster Cards</option>
-      <option value="Effect Monster" >Effect Monster</option>
+      <option value="Effect Monster" >Effect Monster cards</option>
     </select>
   </div>
 </div>
