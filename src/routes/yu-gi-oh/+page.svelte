@@ -13,6 +13,7 @@
       const result = await response.json();
       cardData = result.data;
       cardData = result.data.slice(0, 24);
+      console.log(cardData)
     } catch (error) {
       console.error('Error fetching card data:', error);
     }
@@ -29,7 +30,7 @@
   $: filteredCards = cardData.filter((card) => {
     if (selectedFilter === "all") {
       return true; 
-    } else {
+     } else {
       return card.type === selectedFilter;
     }
   });
@@ -52,8 +53,8 @@
     </button>
     <select bind:value={selectedFilter}>
       <option value="all">All Cards</option>
-      <option value="Spell">Spell Cards</option>
-      <option value="Monster">Monster Cards</option>
+      <option value="Spell Card">Spell Cards</option>
+      <option value="Normal Monster">Monster Cards</option>
     </select>
   </div>
 </div>
