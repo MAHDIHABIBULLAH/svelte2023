@@ -55,6 +55,7 @@
       <option value="all">All Cards</option>
       <option value="Spell Card">Spell Cards</option>
       <option value="Normal Monster">Monster Cards</option>
+      <option value="Effect Monster" >Effect Monster</option>
     </select>
   </div>
 </div>
