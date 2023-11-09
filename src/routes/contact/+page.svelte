@@ -13,7 +13,7 @@
     console.log('Message:', message);
   }
 </script>
-<con>
+<con class="con">
 <h1>Contact Us</h1>
 <form on:submit={handleSubmit}>
   <label for="name">Name:</label>
@@ -24,9 +24,36 @@
 
   <label for="message">Message:</label>
   <textarea id="message" bind:value={message}></textarea>
-
+<div>
   <button type="submit">Submit</button>
+</div>
 </form>
 </con>
+
+<style>
+  /* Contact page styling */
+.con {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+button {
+  margin-top: 1rem;
+
+}
+</style>
 
 

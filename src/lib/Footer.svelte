@@ -23,3 +23,38 @@
     {/each}
   </div>
 </footer>
+
+<style>
+  /* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links img {
+  width: 30px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+</style>

@@ -1,82 +1,7 @@
-/* Common styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Navigation styling */
-.nav {
-  margin: 0;
-  background-color: #333;
-  color: #fff;
-  position: relative;
-  width: 100%;
-}
-
-.yugi-logo {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50px;
-}
-
-nav li {
-  text-align: center;
-}
-
-nav a {
-  text-decoration: none;
-  background-color: #333;
-  color: #416463;
-  padding: 10px 20px;
-  transition: background-color 0.3s;
-}
-
-nav a:hover {
-  background-color: #d8d8d8;
-}
-
-/* Footer styling */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-#logo {
-  padding: 30px;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.footer-links a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer-links img {
-  width: 30px;
 }
 
 /* Main page and video styling */
@@ -97,58 +22,6 @@ footer {
 
 .details {
   background-color: #fff;
-}
-
-/* Card styling */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 10px;
-  list-style: none;
-  padding: 0;
-}
-
-.card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  transition: transform 0.2s;
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
-
-/* Contact page styling */
-.con {
-  text-align: center;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-label {
-  display: block;
-  margin-top: 1rem;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.2rem;
-}
-
-button {
-  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
