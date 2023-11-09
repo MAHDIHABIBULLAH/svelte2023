@@ -35,4 +35,15 @@ The is my second page where the anime yu gi oh is displayed with a short video o
 ![Alt text](image-7.png) once clicked on show cards the cards will display under the video and paragraph and the button switch's to hide cards as on clicking hide cards the cards are hidden again the website page is turned back to default.
 
 
+### About the project 
 
+The project is to build a site using svelte and to implement the coding language we are taught in the course namely HTML, CSS and JavaScript. We are to use the html to structure the website and css to style it and java script to interact with the user.
+
+### Future road map.
+
+The future plan for my website is to make the cards options work and to add in more features like pagination (which is currently out of the course scope), adding in features to be really able to contact the developer through emails. more user interaction with the website hopefully a back end comes out for the yu gi oh card game so I can implement it to let the user have a gaming experience of the card game.
+
+### Bugs and Issues
+
+* The filters don't work
+* The contact page is just for the display it is not actually functioning 
