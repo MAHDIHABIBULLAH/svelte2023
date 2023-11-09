@@ -22,10 +22,10 @@ I choose anime as my site topic because my really long time admiration and Anime
 * https://www.jstor.org/stable/20787689 This particular websites hovering effect on the nav bar looked amazing and had a great appeal to me , and I found amusing to find the exact same hovering effects for it in my own website.
 ### A small trip to the website 
 
-![Alt text](image.png) ![Alt text](image-1.png) 
+![Alt text](image.png) !![Alt text](image-8.png)
 This is the main page where the contents for the anime one piece is displayed here the nav bar and the short video of the website in displayed with a short description of the anime from the wikipedia is taken. The footer is made of gifs with the social media links to instagram, snapchat and discord.
 
-![Alt text](image-2.png) ![Alt text](image-3.png) ![Alt text](image-4.png) 
+![Alt text](image-2.png) 
 '
 The is my second page where the anime yu gi oh is displayed with a short video of the anime with music and a short description of the anime. 
 
