@@ -54,8 +54,8 @@ nav li {
 
 nav a {
   text-decoration: none;
-  background-color: #333;
-  color: #416463;
+  background-color: rgb(51, 51, 51);
+  color: #fff4fe;
   padding: 10px 20px;
   transition: background-color 0.3s;
 }
