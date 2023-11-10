@@ -9,9 +9,9 @@
   </script>
   
   <nav class="nav">
-    <img src="img/onepiece.png" width="200" alt="One Piece Icon">
+    <a href="/"><img src="img/onepiece.png" width="200" alt="One Piece Icon"></a>
     <div class="yugi-logo">
-      <img src="img/yugi.png" width="200" alt="Yu-gi-oh Icon">
+   <a href="/yu-gi-oh"><img src="img/yugi.png" width="200" alt="Yu-gi-oh Icon"></a>
     </div>
     <ul>
       {#each navLinks as { href, text }}
