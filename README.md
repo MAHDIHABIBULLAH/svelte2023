@@ -22,18 +22,18 @@ I choose anime as my site topic because my really long time admiration and Anime
 * https://www.jstor.org/stable/20787689 This particular websites hovering effect on the nav bar looked amazing and had a great appeal to me , and I found amusing to find the exact same hovering effects for it in my own website.
 ### A small trip to the website 
 
-!![Alt text](image-8.png) ![Alt text](<one piece page.png>)
-This is the main page where the contents for the anime one piece is displayed here the nav bar and the short video of the website in displayed with a short description of the anime from the wikipedia is taken. The footer is made of gifs with the social media links to instagram, snapchat and discord.
+![Alt text](image.png) ![Alt text](image-1.png)
+This is the main page where the contents for the anime one piece is displayed here the nav bar and the short video of the website in displayed with a short description of the anime from the wikipedia is taken. The footer is made of gif with the social media links to instagram, snapchat and discord.
 
 
-![Alt text](<yu gi oh page.png>) 
+![Alt text](image-2.png) 
 The is my second page where the anime yu gi oh is displayed with a short video of the anime with music and a short description of the anime. 
-
-![Alt text](<yu gi oh page options.png>) This here is from the second page yu gi oh it is a button when clicked upon it displays the yu gi oh cards.
-
-![Alt text](<yu hi oh cards.png>)once clicked on show cards it starts displaying the cards in a grid with hovering effects.
-
-![Alt text](<contact page.png>) This here is the contact page that I TRIED to replicate from one of my inspiration site. 
+![Alt text](image-3.png) ![Alt text](<yu hi oh cards.png>)
+ This here is from the second page yu gi oh it is a button when clicked upon it displays the yu gi oh cards.
+once clicked on show cards it starts displaying the cards in a grid with hovering effects.
+![Alt text](image-4.png)
+This here is the contact page that I TRIED to replicate from one of my inspiration site. 
+![Alt text](image-5.png) This is the Picture page where I have a small picture gallery. on hovering on the picture the picture zooms in and the image fill the screen and when the sursor is moved to the edge of the screen it zooms out again.
 
 
 ### About the project 
@@ -45,5 +45,4 @@ The project is to build a site using svelte and to implement the coding language
 The future plan for my website is to make the cards options work and to add in more features like pagination (which is currently out of the course scope), adding in features to be really able to contact the developer through emails. more user interaction with the website hopefully a back end comes out for the yu gi oh card game so I can implement it to let the user have a gaming experience of the card game.
 
 ### Bugs and Issues
-
 * The contact page is just for the display it is not actually functioning 
