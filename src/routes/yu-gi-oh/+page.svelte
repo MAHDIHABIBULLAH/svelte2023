@@ -99,4 +99,42 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
+
+  /* Card styling */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0s;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .video,
+    .details {
+      flex: 1 100%;
+      margin-right: 0;
+    }
+  }
 </style>
