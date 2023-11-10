@@ -63,6 +63,53 @@ nav a {
 nav a:hover {
   background-color: #d8d8d8;
 }
+ /* Add some padding to the nav */
+ .nav {
+    padding: 10px;
+  }
 
+  /* Style the logo images */
+  .nav img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Style the navigation links */
+  nav a {
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+
+  /* Style the active link */
+  nav a.active {
+    background-color: #d8d8d8;
+    color: #333;
+  }
+
+  /* Add a subtle box shadow on hover */
+  nav a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Media query for responsive design */
+  @media (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .yugi-logo {
+      position: static;
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      flex-direction: column;
+    }
+
+    nav li {
+      margin-bottom: 5px;
+    }
+  }
 
   </style>
