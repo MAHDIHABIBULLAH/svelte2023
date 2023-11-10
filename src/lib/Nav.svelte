@@ -5,6 +5,7 @@
       { href: '/', text: 'One Piece' },
       { href: '/yu-gi-oh', text: 'Yu-gi-oh' },
       { href: '/contact', text: 'Contact' },
+      {href: '/pictures', text:'Pictures'}
     ];
   </script>
   
