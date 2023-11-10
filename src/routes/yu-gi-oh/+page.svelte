@@ -115,7 +115,7 @@
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    transition: transform 0s;
+    transition: transform 0.2s;
   }
 
   .card img {
