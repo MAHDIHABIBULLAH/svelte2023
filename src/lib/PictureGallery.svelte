@@ -23,3 +23,15 @@
     }
     window.addEventListener('click', resetZoom);
   </script>
+  <div class="gallery" onclick="{resetZoom}">
+    {#each images as img}
+      <img
+        src={`img/${img}`}
+        alt={`Picture ${img}`}
+        class:zoomed={zoomedImage === img}
+        on:mouseenter="{(event) => zoomImage(event, img)}"
+        on:mouseleave="{resetZoom}"
+      />
+    {/each}
+  </div>
+  
