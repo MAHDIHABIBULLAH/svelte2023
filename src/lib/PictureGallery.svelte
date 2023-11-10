@@ -34,4 +34,37 @@
       />
     {/each}
   </div>
+
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* 5 columns */
+      grid-template-rows: repeat(2, 1fr); /* 2 rows */
+      gap: 10px;
+      width: 100%;
+      height: 100vh; /* Adjusted to fill the vertical space */
+      margin: 0;
+      padding: 0;
+    }
+  
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+      cursor: pointer;
+    }
+  
+    .zoomed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 10;
+      object-fit: contain;
+    }
+  </style>
+  
+  
   
