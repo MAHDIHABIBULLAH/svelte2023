@@ -68,13 +68,13 @@ nav a:hover {
     padding: 10px;
   }
 
-  /* Style the logo images */
+  /* Styling the logo images */
   .nav img {
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
-  /* Style the navigation links */
+  /* Styling the navigation links */
   nav a {
     border-radius: 5px;
     margin: 0 5px;
