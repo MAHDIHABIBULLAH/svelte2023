@@ -22,17 +22,18 @@ I choose anime as my site topic because my really long time admiration and Anime
 * https://www.jstor.org/stable/20787689 This particular websites hovering effect on the nav bar looked amazing and had a great appeal to me , and I found amusing to find the exact same hovering effects for it in my own website.
 ### A small trip to the website 
 
-![Alt text](image.png) !![Alt text](image-8.png)
+!![Alt text](image-8.png) ![Alt text](<one piece page.png>)
 This is the main page where the contents for the anime one piece is displayed here the nav bar and the short video of the website in displayed with a short description of the anime from the wikipedia is taken. The footer is made of gifs with the social media links to instagram, snapchat and discord.
 
-![Alt text](image-2.png) 
-'
+
+![Alt text](<yu gi oh page.png>) 
 The is my second page where the anime yu gi oh is displayed with a short video of the anime with music and a short description of the anime. 
 
-![Alt text](image-5.png) This here is from the second page yu gi oh it is a button when clicked upon it displays the yu gi oh cards.
+![Alt text](<yu gi oh page options.png>) This here is from the second page yu gi oh it is a button when clicked upon it displays the yu gi oh cards.
 
-![Alt text](image-6.png) once clicked on show cards it starts displaying the cards in a grid with hovering effects.
-![Alt text](image-7.png) once clicked on show cards the cards will display under the video and paragraph and the button switch's to hide cards as on clicking hide cards the cards are hidden again the website page is turned back to default.
+![Alt text](<yu hi oh cards.png>)once clicked on show cards it starts displaying the cards in a grid with hovering effects.
+
+![Alt text](<contact page.png>) This here is the contact page that I TRIED to replicate from one of my inspiration site. 
 
 
 ### About the project 
@@ -45,5 +46,4 @@ The future plan for my website is to make the cards options work and to add in m
 
 ### Bugs and Issues
 
-* The filters don't work
 * The contact page is just for the display it is not actually functioning 
