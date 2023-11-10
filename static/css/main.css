@@ -2,22 +2,31 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  
+  overflow-x: hidden;
 }
 
-/* Main page and video styling */
+
 .video-grid {
   display: grid;
   grid-template-columns: 70% 30%;
   margin: 20px;
+
+  box-sizing: border-box;
 }
 
 .video,
 .details {
   padding: 20px;
+ 
+  box-sizing: border-box;
 }
 
 .video video {
   width: 100%;
+  /* Prevent video from exceeding its container */
+  max-width: 100%;
+  height: auto; 
 }
 
 .details {
@@ -27,8 +36,15 @@ body {
 @media only screen and (max-width: 768px) {
   .video-grid {
     grid-template-columns: 100%;
+    margin: 0; 
   }
 
+  .video,
+  .details {
+    padding: 10px; 
+  }
+
+  
   .card-grid {
     grid-template-columns: 100%;
   }
